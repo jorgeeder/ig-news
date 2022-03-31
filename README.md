@@ -17,7 +17,7 @@
       <img alt="Made by Jorge Eder" src="https://img.shields.io/badge/solved%20by-Jorge%20Eder-blueviolet?style=plastic">
     </a>
     <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/jorgeeder/ig-news?color=blue&style=plastic">
-    <img alt="Repository size" src="https://img.shields.io/github/repo-size/jorgeeder/ig-news?style=plastic"/>
+    <img alt="Repository size" src="https://img.shields.io/github/repo-size/jorgeeder/ig-news?color=blue&style=plastic"/>
     <a href="https://opensource.org/licenses/MIT">
       <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen?style=plastic">
     </a>
