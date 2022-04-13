@@ -1411,6 +1411,13 @@
     escape-html "^1.0.3"
     imgix-url-builder "^0.0.3"
 
+"@prismicio/next@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@prismicio/next/-/next-0.1.2.tgz#f63567b97bf7bd5ddfa1bdfee8bf1ab81e9aa2b2"
+  integrity sha512-y8TPvZDjSxIsGTXNhCiPacdIB47s45HP1asetzWyNWQLgpaHmsZBZ//ioK0QX1CyNg5LHugoa0DkUpqUlFViZg==
+  dependencies:
+    "@prismicio/react" "^2.2.0"
+
 "@prismicio/react@^2.2.0":
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/@prismicio/react/-/react-2.2.0.tgz#908f78086da89a5c5480ad2f5b261d9695d81871"
@@ -1490,6 +1497,19 @@
   version "1.1.6"
   resolved "https://registry.yarnpkg.com/@slicemachine/core/-/core-1.1.6.tgz#a5d627f5a14265a12d8465e7eabef4ec9f2d754a"
   integrity sha512-/V2IPtvGyTDoBr2oDMhZSyGgHM1/wJ8DD6Tp9/hDhLxBAl4r9DuSOgg7MpXhCO6u4bKG3uzOEPrSoQXt22qWsQ==
+  dependencies:
+    "@prismicio/types-internal" "^0.2.8"
+    axios "^0.26.0"
+    cookie "^0.4.1"
+    fp-ts "^2.11.5"
+    io-ts "^2.2.16"
+    io-ts-reporters "^2.0.1"
+    io-ts-types "^0.5.16"
+
+"@slicemachine/core@1.1.7":
+  version "1.1.7"
+  resolved "https://registry.yarnpkg.com/@slicemachine/core/-/core-1.1.7.tgz#fe2ada5682fbcadaeaf4f5f2b1e3a62a8590d189"
+  integrity sha512-NlxhPg3JX3EbbomRO/2FE8qfR4YdFuyy0Q/GdkZa3bceHMq1Dx5B8eyCh/UyO5A7u7B3D+71UvJf4fYpjMwJ5w==
   dependencies:
     "@prismicio/types-internal" "^0.2.8"
     axios "^0.26.0"
@@ -6286,15 +6306,15 @@ slash@3.0.0, slash@^3.0.0:
   resolved "https://registry.yarnpkg.com/slash/-/slash-3.0.0.tgz#6539be870c165adbd5240220dbe361f1bc4d4634"
   integrity sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q==
 
-slice-machine-ui@^0.3.5:
-  version "0.3.5"
-  resolved "https://registry.yarnpkg.com/slice-machine-ui/-/slice-machine-ui-0.3.5.tgz#4a63e8158b83ab4c863cdb1c4d879f0db09d9a1f"
-  integrity sha512-2Ndjkse8dwrcboYolF0+JksM0f8guYDWQHsUlPxYL2Ta7gWbferqouYZDYX3D57eFo3SmcOhRmnSNRwzvBwS7A==
+slice-machine-ui@^0.3.6:
+  version "0.3.6"
+  resolved "https://registry.yarnpkg.com/slice-machine-ui/-/slice-machine-ui-0.3.6.tgz#d2119750e8b1da14b18fea4f48b738a48e56f16b"
+  integrity sha512-Nf3XyuCMJQEu5GeoaAdBWRFVYcqACl3XRv7FCTkcXl6QwNUBLlR5x1znjcxR+od2umG2J/s7+HFFffROX9p9+g==
   dependencies:
     "@babel/register" "^7.17.7"
     "@faker-js/faker" "^6.0.0"
     "@prismicio/types-internal" "^0.2.7"
-    "@slicemachine/core" "1.1.6"
+    "@slicemachine/core" "1.1.7"
     "@svgr/webpack" "^5.4.0"
     atob "^2.1.2"
     axios "^0.26.0"

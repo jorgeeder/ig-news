@@ -1,6 +1,6 @@
 {
   "_cts": {
-    "my-custom-type": {
+    "post": {
       "title": {
         "config": {
           "patternType": "HEADING",
@@ -9,7 +9,7 @@
       },
       "content": {
         "config": {
-          "patternType": "PARAGRAPH",
+          "patternType": "STORY",
           "blocks": 1
         }
       }

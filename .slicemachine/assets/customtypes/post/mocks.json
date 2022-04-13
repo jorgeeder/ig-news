@@ -1,0 +1,36 @@
+{
+  "id": "f3c18b7c-397a-4972-8ea8-bf288170f494",
+  "uid": "reprehenderit-a-ex",
+  "type": "post",
+  "data": {
+    "title": [
+      {
+        "type": "heading1",
+        "text": "Unleash cutting-edge eyeballs",
+        "spans": []
+      }
+    ],
+    "content": [
+      {
+        "type": "heading1",
+        "text": "Drive seamless applications",
+        "spans": []
+      },
+      {
+        "type": "image",
+        "dimensions": {
+          "width": 900,
+          "height": 500
+        },
+        "alt": "Placeholder image",
+        "copyright": null,
+        "url": "https://images.unsplash.com/photo-1587653915936-5623ea0b949a?w=900&h=500&fit=crop"
+      },
+      {
+        "type": "paragraph",
+        "text": "Cillum anim esse deserunt aliquip fugiat id dolore elit sit exercitation. Do proident ea id non officia aute incididunt eu proident.",
+        "spans": []
+      }
+    ]
+  }
+}
