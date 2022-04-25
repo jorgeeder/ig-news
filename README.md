@@ -26,6 +26,11 @@
 
 ## About The Project
 
+The ig.news project is a blog where users can access the content of each post according to their subscription status.
+The blog has a purchase system integrated with STRIPE, and after the user makes the payment, their subscription will be active and ready to view the full content of the entire blog. If the user does not wish to opt for the subscription, he will have limited access to the content of the posts. And all the data needed to verify signatures or user data are saved in the FaunaDB database.
+
+This is a Serverless application, that is, the entire process that would depend on a backend was integrated within the front end and following the JAMStack standard.
+Posts are made through the Prismic CMS panel and integrated directly from the front.
 
 ## Features
 
@@ -36,6 +41,7 @@
 -   **[Stripe](https://stripe.com/docs)**
 -   **[FaunaDB](https://fauna.com/)**
 -   **[Prismic CMS](https://prismic.io/)**
+-   **[Github Oauth](https://docs.github.com/en/developers/apps/building-oauth-apps/authorizing-oauth-apps)**
 
 ## Application in Use
 
