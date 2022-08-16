@@ -34,6 +34,13 @@ Posts are made through the Prismic CMS panel and integrated directly from the fr
 
 ## Features
 
+- Authentication with github
+- Show page content according to permission level
+- Application subscription
+- Payments with stripe
+- User record in the Fauna database
+- Content management with prismic CMS
+
 
 ## Technologies
 
@@ -45,9 +52,24 @@ Posts are made through the Prismic CMS panel and integrated directly from the fr
 
 ## Application in Use
 
+ ![home](./public/images/home.png)
+ ![subscription](./public/images/subscription.png)
+ ![noAuthentication](./public/images/noAuthentication.png)
+ ![authenticated](./public/images/authenticated.png)
 
 ## Requirements
 
+Necessary to carry out the installations:
+-   **[Node.js](https://nodejs.org/)**
+-   **[Git](https://git-scm.com/)**
+-   **[Yarn](https://classic.yarnpkg.com)**
+-   **[Stripe CLI](https://stripe.com/docs/stripe-cli)**
+
+Create account and configure external services:
+
+-   **[Stripe](https://stripe.com/)**
+-   **[FaunaDB](https://fauna.com/)**
+-   **[Prismic CMS](https://prismic.io/)**
 
 ## Running The Project
 First, run the development server:
